@@ -6,10 +6,10 @@ public class operasiyi {
     int x = 56;
     int y = 12;
     Scanner in = new Scanner(System.in);
-    System.out.println("Vvedite nomer operasiyi:");
-    System.out.println("1.Slojeniye");
-    System.out.println("2.Vichitaniye");
-    System.out.println("3.Umnojeniye");
+    System.out.println("Enter transaction number:");
+    System.out.println("1.Addition");
+    System.out.println("2.Subtraction");
+    System.out.println("3.Multiplication");
     int a = in.nextInt();
 
     switch (a) {
@@ -23,7 +23,7 @@ public class operasiyi {
       System.out.println(x * y);
       break;
     default:
-      System.out.println("Neizvestnoye chislo");
+      System.out.println("Unknown number");
       break;
     }
   }
